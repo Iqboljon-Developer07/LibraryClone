@@ -1,0 +1,794 @@
+<DOCTYPE html>
+    <html>
+
+    <head lang="en,uz">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Library Clone</title>
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/responsiveness.css">
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <i class="fa-solid fa-xmark"></i>
+        <div class="sign grid-center">
+            <div class="sign-container flex-center">
+                <h2>Ro'yhatdan O'TiSh</h2>
+                <form class="flex-center">
+                    <div class="email-input">
+                        <label for="ism">Emailingiz</label> <br>
+                        <input type="email" name="ism" id="ism" placeholder="Emailingizni kiriting">
+                    </div>
+                
+                    <div class="parol-input">
+                        <label for="parol">Parolingiz</label> <br>
+                        <input type="password" name="parol" id="parol" placeholder="Parolingizni kiriting">
+                    </div>
+
+                    <div class="remember">
+                        <input  type="checkbox" name="radio" id="radio">
+                        <label for="radio" class="remember">Menga Eslatish</label>
+                    </div>
+
+                    <button>Ro'yhatdan O'tish</button>
+                </form>
+                <p class="form-p1">Parolingizni Unutdingizmi ? <a href="#">Bu Yerni Bosing</a></p>
+                <p>Hisobingiz Yo'qmi ? <a href="#">Yangisini Yarating</a></p>
+            </div>
+        </div>
+
+        <header id="header" class="flex-center">
+            <div class="header-logo flex-center">
+                <i class="fa-solid fa-book"></i>
+                <h2>Kitobiy</h2>
+            </div>
+            <div class="header-form-container flex-center">
+                <form class="header-form flex-center">
+                    <input type="text" name="input" id="header-form-input" placeholder="Qidirish uchun...">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="header-links flex-center">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </header>
+
+        <header id="header2" class="flex-center">
+            <a href="#home">
+                <i class="fa-solid fa-house-chimney"></i>
+                <span>Asosiy</span>
+            </a>
+            <a href="#searched">
+                <i class="fa-solid fa-bars"></i>
+                <span>Siz Qidirgan</span>
+            </a>
+            <a href="#newbooks">
+                <i class="fa-solid fa-tags"></i>
+                <span>So'ngi Kitoblar</span>
+            </a>
+            <a href="#messages">
+                <i class="fa-solid fa-comments"></i>
+                <span>Sharhlar</span>
+            </a>
+            <a href="#blog">
+                <i class="fa-solid fa-blog"></i>
+                <span>Bloglar</span>
+            </a>
+        </header>
+
+        <main class="flex-center" id="home">
+            <div class="main-info flex-center">
+                <h1>75% Gacha Chegirma</h1>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Magnam Deserunt Nostrum Accusamus. Nam Alias
+                    Sit Necessitatibus, Aliquid Ex Minima At!</p>
+                <button>Soziroq Sotib Olish</button>
+            </div>
+            <div class="main-contents flex-center">
+                <div class="books-carousel flex-center">
+                    <img src="./images/main/boy ota kambagal ota.jfif" alt="image" draggable="false">
+                    <img src="./images/main/otkankunlar.jpg" alt="image" draggable="false">
+                    <img src="./images/main/sariq devni minib.jfif" alt="image" draggable="false">
+                    <img src="./images/main/sariq devni olimi.jfif" alt="image" draggable="false">
+                    <img src="./images/main/shum bola (1).jfif" alt="image" draggable="false">
+                    <img src="./images/main/yulduzli kunlar.jpg" alt="image" draggable="false">
+                </div>
+                <img src="/images/main/stand.png" class="stand" alt="image">
+            </div>
+        </main>
+
+        <div class="services">
+            <div class="service flex-center">
+                <i class="fa-solid fa-truck"></i>
+                <div class="service-info">
+                    <h2>Yetkazib Berish Bepul</h2>
+                    <p>100 ming so'mdan ortiqroq savdo qiling</p>
+                </div>
+            </div>
+            <div class="service flex-center">
+                <i class="fa-solid fa-lock"></i>
+                <div class="service-info">
+                    <h2>Xavfsiz To'lov</h2>
+                    <p>100% xavfsiz to'lov</p>
+                </div>
+            </div>
+            <div class="service flex-center">
+                <i class="fa-solid fa-arrow-rotate-right"></i>
+                <div class="service-info">
+                    <h2>Oson qaytish</h2>
+                    <p>10 Kun Qaytariladi</p>
+                </div>
+            </div>
+            <div class="service flex-center">
+                <i class="fa-solid fa-headset"></i>
+                <div class="service-info">
+                    <h2>24/7 Qo'llab - Quvvatlash</h2>
+                    <p>Istalgan vaqtda bizga qo'ng'iroq qiling</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="showed-books flex-center" id="searched">
+            <h1>Ko'rsatilgan Kitoblar</h1>
+
+            <div class="books">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <div class="books-container flex-center">
+                    <div class="book flex-center">
+                        <div class="book-links flex-center">
+                            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="book-image">
+                            <img src="./images/book/book-2.png" alt="image">
+                        </div>
+                        <h1>Ko'rsatilgan Kitoblar</h1>
+                        <div class="book-price">
+                            <span>15.99 SO'M</span>
+                            <span>10.99 SO'M</span>
+                        </div>
+                        <button>Savatchaga Qo'shish</button>
+                    </div>
+                    <div class="book flex-center">
+                        <div class="book-links flex-center">
+                            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="book-image">
+                            <img src="./images/book/book-10.png" alt="image">
+                        </div>
+                        <h1>Ko'rsatilgan Kitoblar</h1>
+                        <div class="book-price">
+                            <span>15.99 SO'M</span>
+                            <span>10.99 SO'M</span>
+                        </div>
+                        <button>Savatchaga Qo'shish</button>
+                    </div>
+                    <div class="book flex-center">
+                        <div class="book-links flex-center">
+                            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="book-image">
+                            <img src="./images/book/book-5.png" alt="image">
+                        </div>
+                        <h1>Ko'rsatilgan Kitoblar</h1>
+                        <div class="book-price">
+                            <span>15.99 SO'M</span>
+                            <span>10.99 SO'M</span>
+                        </div>
+                        <button>Savatchaga Qo'shish</button>
+                    </div>
+                    <div class="book flex-center">
+                        <div class="book-links flex-center">
+                            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="book-image">
+                            <img src="./images/book/book-7.png" alt="image">
+                        </div>
+                        <h1>Ko'rsatilgan Kitoblar</h1>
+                        <div class="book-price">
+                            <span>15.99 SO'M</span>
+                            <span>10.99 SO'M</span>
+                        </div>
+                        <button>Savatchaga Qo'shish</button>
+                    </div>
+                    <div class="book flex-center">
+                        <div class="book-links flex-center">
+                            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="book-image">
+                            <img src="./images/book/book-8.png" alt="image">
+                        </div>
+                        <h1>Ko'rsatilgan Kitoblar</h1>
+                        <div class="book-price">
+                            <span>15.99 SO'M</span>
+                            <span>10.99 SO'M</span>
+                        </div>
+                        <button>Savatchaga Qo'shish</button>
+                    </div>
+                    <div class="book flex-center">
+                        <div class="book-links flex-center">
+                            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="book-image">
+                            <img src="./images/book/book-9.png" alt="image">
+                        </div>
+                        <h1>Ko'rsatilgan Kitoblar</h1>
+                        <div class="book-price">
+                            <span>15.99 SO'M</span>
+                            <span>10.99 SO'M</span>
+                        </div>
+                        <button>Savatchaga Qo'shish</button>
+                    </div>
+                </div>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+
+        <div class="background-image">
+            <img src="./images/additional/letter-bg.jpg" alt="image">
+        </div>
+
+        <div class="library-forum flex-center">
+            <div class="library-forum-info flex-center">
+                <h2>So'nggi Yangilanishlarga Obuna Bo'ling</h2>
+                <input type="text" name="library-forum" id="forum-input" placeholder="E-mail ni kiriting">
+                <button>Obuna Bo'ling</button>
+            </div>
+        </div>
+
+        <div class="new-books flex-center" id="newbooks">
+            <h1>Yangi Kelganlar</h1>
+
+            <div class="new-books-container flex-center">
+
+                <div class="new-books-contents flex-center">
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-10.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-2.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-5.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-7.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-8.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-9.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new-books-contents flex-center">
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-9.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-8.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-7.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-5.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-2.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-book flex-center">
+                        <img src="./images/book/book-10.png" alt="image">
+                        <div class="new-book-info">
+                            <h2>
+                                Yangi Kelganlar
+                            </h2>
+                            <div class="new-book-price">
+                                <span>15.99 SO'M</span>
+                                <span>20.99 SO'M</span>
+                            </div>
+                            <div class="new-book-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        <div class="deal flex-center">
+            <div class="deal-infos flex-center">
+                <h2>Kun Kelishuvi</h2>
+                <h1>50% Gacha Chegirma</h1>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Unde Perspiciatis In Atque Dolore Tempora Quaerat At Fuga Dolorum Natus Velit.</p>
+                <button class="deal-button">
+                    Hoziroq Sotib Olish
+                </button>
+            </div>
+            <img src="./images/additional/deal-img.jpg" alt="image">
+        </div>
+
+
+        <div class="customers-messages flex-center" id="messages">
+            <h1>Mijozning Sharhlari</h1>
+            <div class="customers flex-center">
+                <div class="customer flex-center">
+                    <img src="./images/customers/1.png" alt="image">
+                    <h2>Alisher Hojiyev</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto impedit natus iusto dolorem</p>
+                    <div class="customer-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="customer flex-center">
+                    <img src="./images/customers/2.png" alt="image">
+                    <h2>Malika Axrorov</h2>
+                    <p>Commodi non ea voluptatem numquam illum qui magni ipsa, recusandae distinctio, aut, quae sed!</p>
+                    <div class="customer-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="customer flex-center">
+                    <img src="./images/customers/3.png" alt="image">
+                    <h2>Shahlo Soliyeva</h2>
+                    <p>Quos, unde! Repellat deserunt dolor unde ratione corrupti eaque nulla quam consequuntur numquam </p>
+                    <div class="customer-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="customer flex-center">
+                    <img src="./images/customers/4.png" alt="image">
+                    <h2>Jamshid Soliyev</h2>
+                    <p>Natus odit, repellendus impedit minima corporis magni laboriosam vel blanditiis dolorum hic labore</p>
+                    <div class="customer-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="customer flex-center">
+                    <img src="./images/customers/5.png" alt="image">
+                    <h2>Alisa Qurbonova</h2>
+                    <p>Hic doloribus nihil pariatur, fugit blanditiis repudiandae unde accusantium modi quasi similiqu</p>
+                    <div class="customer-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="customer flex-center">
+                    <img src="./images/customers/6.png" alt="image">
+                    <h2>Shohjahon Abdurahimov</h2>
+                    <p>Deleniti, earum? Voluptatum excepturi exercitationem, modi delectus nostrum quidem repudiandae</p>
+                    <div class="customer-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="blog flex-center" id="blog">
+            <h1>Bizning Blog</h1>
+            <div class="blog-contents flex-center">
+                <div class="blog-content flex-center">
+                    <div class="blog-content-img">
+                        <img src="./images/blog/blog-1.jpg" alt="image">
+                    </div>
+                    <h1>Blog Sarlavhasi Shu Yerda</h1>
+                    <p>Lorom Ipsun Dolor. Sit Amet Consectetur Adiplising Elit Optio. Odio.</p>
+                    <button>Ko'proq O'qish</button>
+                </div>
+                <div class="blog-content flex-center">
+                    <div class="blog-content-img">
+                        <img src="./images/blog/blog-2.jpg" alt="image">
+                    </div>
+                    <h1>Blog Sarlavhasi Shu Yerda</h1>
+                    <p>Lorom Ipsun Dolor. Sit Amet Consectetur Adiplising Elit Optio. Odio.</p>
+                    <button>Ko'proq O'qish</button>
+                </div>
+                <div class="blog-content flex-center">
+                    <div class="blog-content-img">
+                        <img src="./images/blog/blog-3.png" alt="image">
+                    </div>
+                    <h1>Blog Sarlavhasi Shu Yerda</h1>
+                    <p>Lorom Ipsun Dolor. Sit Amet Consectetur Adiplising Elit Optio. Odio.</p>
+                    <button>Ko'proq O'qish</button>
+                </div>
+                <div class="blog-content flex-center">
+                    <div class="blog-content-img">
+                        <img src="./images/blog/blog-4.jpg" alt="image">
+                    </div>
+                    <h1>Blog Sarlavhasi Shu Yerda</h1>
+                    <p>Lorom Ipsun Dolor. Sit Amet Consectetur Adiplising Elit Optio. Odio.</p>
+                    <button>Ko'proq O'qish</button>
+                </div>
+                <div class="blog-content flex-center">
+                    <div class="blog-content-img">
+                        <img src="./images/blog/blog-5.jpg" alt="image">
+                    </div>
+                    <h1>Blog Sarlavhasi Shu Yerda</h1>
+                    <p>Lorom Ipsun Dolor. Sit Amet Consectetur Adiplising Elit Optio. Odio.</p>
+                    <button>Ko'proq O'qish</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <footer class="footer">
+            <div class="footer-content flex-center">
+                <div class="footer-info flex-center">
+                    <h2>Bizning Manzillar</h2>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="footer-links">
+                    <p>
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <span>
+                            Andijon
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <span>
+                            Bliqchi
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <span>
+                            Ulug'nor
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <span>
+                            Oltinko'l
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <span>
+                            Shaxrixon
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <span>
+                            Qo'rg'ontepa
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-content flex-center">
+                <div class="footer-info flex-center">
+                    <h2>Tezkor Havolalar</h2>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="footer-links">
+                    <p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            Asosiy
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            Korsatilgan
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            Songilari
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            Sharhlar
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            Bloglar
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-content flex-center">
+                <div class="footer-info flex-center">
+                    <h2>Qo'shimcha Havolalar</h2>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="footer-links">
+                    <p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            Hisob Ma'lumotlari
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            Buyurtma Qilingan Narsalar
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            Maxfiylik Siyosati
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            To'lov Uslubi
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <span>
+                            Bizning Xizmatlarimiz
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-content flex-center">
+                <div class="footer-info flex-center">
+                    <h2>
+                        Aloqa Ma'lumotlari
+                    </h2>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="footer-links">
+                    <p>
+                        <i class="fa-solid fa-phone-flip"></i>
+                        +<span>
+                            998932457889
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            MrKadirov77@gmail.com
+                        </span>
+                    </p>
+                    <img src="./images/additional/worldmap.png" alt="">
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js.js"></script>
+    </body>
+</html>
